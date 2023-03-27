@@ -39,9 +39,24 @@ class Carro:
             self.velocidade = self.velocidade - 1
             print("Reduzindo a velocidade !!!")
         return self.velocidade
+    
+    def info(self):
+        info = f"""
+            Caracteristicas do veículo
+
+            Marca: {self.marca}
+            Modelo: {self.modelo}
+            Cor: {self.cor}
+            Ano: {self.ano}
+            Câmbio: {self.tipo_cambio}
+        """
+        print(info)
 
 # instanciando o carro
 c = Carro("Volkswagem", "Gol", "Prata", 2017, 1)
+
+# caracteristicas do veículo
+c.info()
 
 # ligando o carro
 c.set_ligar()
