@@ -1,1 +1,2 @@
-# Repositório com códigos Python para exemplo
+# Repositório com exemplo de códigos Python.
+
