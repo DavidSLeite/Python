@@ -7,6 +7,6 @@ services:
     environment:
       - PYSPARK_SUBMIT_ARGS=--packages org.apache.iceberg:iceberg-spark-runtime-3.4_2.12:1.3.0 pyspark-shell
     volumes:
-      - F:\projetos\spark_iceberg\data:/home/jovyan/work
+      - F:\projetos\app_spark\Python\spark_iceberg\data:/home/jovyan/work
     ports:
       - "8888:8888"
